@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+
+  height: 100%;
+  width: 100%;
+
+}
+
+#app {
+
+  background-color: #7ce0ff;
+  color: rgba(53, 53, 53, 0.82);
+
+
+}
+
+.side {
+
+  margin: 50px;
+
+  color: white;
+
+  border-radius: 30px;
+
+  /*padding: 20px;*/
+}
+
+#team1 {
+  background-color: blueviolet;
+  height: 100%;
+  width: 100%;
+}
+
+#team1:hover {
+  opacity: 0.7;
+}
+
+#team2:hover {
+  opacity: 0.7;
+}
+
+#team2 {
+  background-color: orangered;
+  height: 100%;
+  width: 100%;
+}
+
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
